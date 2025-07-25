@@ -13,6 +13,7 @@
                 href="/Day5/frontend/index.php?page=home">Home</a>
             <a class="nav-link <?= ($_GET['page'] ?? '') == 'viewCart' ? 'active' : '' ?>" 
                 href="/Day5/frontend/index.php?page=viewCart">Giỏ hàng</a>
+            <a class="nav-link" href="/Day6/frontend/pages/Aboutus.php">About us</a>
         </ul> 
 
         <!-- <form class="d-flex me-3" role="search"> 
